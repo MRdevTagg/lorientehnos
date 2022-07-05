@@ -1,0 +1,105 @@
+    .queAparece{}
+    .queApareceyEscala{}
+    .queApareceIzqDer{}
+    .quebackimg{}
+     .op{opacity:0;}
+    
+    .aparecer{
+    animation-name: fadein;
+    animation-iteration-count: 1;
+    
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-play-state: running;
+    }
+    .desaparecer{
+    animation-name: fadeout;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-duration: .3s;
+    animation-play-state: running;
+    }
+    .apareceryescala{
+    animation-name: fadein2;
+    animation-iteration-count: 1;
+    
+    animation-fill-mode: forwards;
+    animation-duration: .3s;
+    animation-play-state: running;
+    }
+    .desapareceryescala{
+    animation-name: fadeout2;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-duration: .5s;
+    animation-play-state: running;
+    }
+    .aparecerizq{
+      animation-name: fadeinizq;
+      animation-iteration-count: 1;
+      
+      animation-fill-mode: forwards;
+      animation-duration:1s;
+      animation-play-state: running;
+      }
+      .desaparecerizq{
+      animation-name: fadeoutizq;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      animation-duration: .5s;
+      animation-play-state: running;
+      }
+    .aparecerbki{
+      animation-name: fadeinbki;
+      animation-iteration-count: 1;
+      
+      animation-fill-mode: forwards;
+      animation-duration:3s;
+      animation-play-state: running;
+      }
+      .desaparecerbki{
+      animation-name: fadeoutbki;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      animation-duration: .5s;
+      animation-play-state: running;
+      }
+    @keyframes fadein{
+      0%{opacity:0;transform: scale(1.2);}
+        50%{opacity:.4}
+      100%{opacity:1;transform: scale(1);}
+    }
+    @keyframes fadeout{
+      0%{opacity:1; transform: scale(1)}
+       
+      100%{opacity:0;transform: scale(1)}
+    }
+    @keyframes fadein2{
+      0%{opacity:0;
+      transform: scale(0.5);}
+      50%{opacity:.4}
+      100%{opacity:1;
+     transform: scale(1);}
+    }
+    @keyframes fadeout2{
+      0%{opacity:1; transform: scale(1);}
+      100%{opacity:0; transform: scale(0.5);}
+    }
+    @keyframes fadeinizq{
+      0%{opacity:0; margin-left: -20%;}
+      100%{opacity:0.6; margin-left: 60%;}
+    }
+    @keyframes fadeoutizq{
+      0%{opacity:0.6; margin-left: 60%;}
+      100%{opacity:0; margin-left: -20%;}
+    }
+        @keyframes fadeinbki{
+
+      0%{ background-size:600% ;}
+
+      100%{background-size:500%;}
+    }
+    @keyframes fadeoutbki{
+      0%{background-size:500%}
+      100%{background-size:600%}
+    }
