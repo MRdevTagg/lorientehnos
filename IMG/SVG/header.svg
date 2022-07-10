@@ -1,0 +1,44 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="550px" height="128px" viewBox="0 0 550 128">
+<defs>
+<radialGradient id="Gradient_1" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="84.625" fx="-37.832352941176474" fy="4.6331269933624724e-15" gradientTransform="matrix( 1, 0, 0, 1, -165.45,9) " spreadMethod="pad">
+<stop  offset="0%" stop-color="#004A70"/>
+
+<stop  offset="54.509803921568626%" stop-color="#00314A"/>
+
+<stop  offset="78.03921568627452%" stop-color="#002132"/>
+
+<stop  offset="100%" stop-color="#000102"/>
+</radialGradient>
+
+<linearGradient id="Gradient_2" gradientUnits="userSpaceOnUse" x1="275" y1="97.6625" x2="275" y2="123.0375" spreadMethod="pad">
+<stop  offset="25.88235294117647%" stop-color="#000000" stop-opacity="0.7686274509803922"/>
+
+<stop  offset="72.94117647058823%" stop-color="#000000" stop-opacity="0.6078431372549019"/>
+
+<stop  offset="100%" stop-color="#000000" stop-opacity="0"/>
+</linearGradient>
+
+<g id="Barra_nav_0_Layer0_0_FILL">
+<path fill="url(#Gradient_1)" stroke="none" d="
+M -118.35 -40.75
+L -212.6 -40.75 -212.6 58.7 -118.35 58.7 -118.35 -40.75 Z"/>
+</g>
+
+<g id="Barra_nav_0_Layer0_1_FILL">
+<path fill="url(#Gradient_2)" stroke="none" d="
+M 550 123.1
+L 550 97.6 0 97.6 0 123.1 550 123.1 Z"/>
+</g>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 275,63.7) ">
+<g transform="matrix( 5.83538818359375, 0, 0, 1.108612060546875, 965.6,-18.5) ">
+<use xlink:href="#Barra_nav_0_Layer0_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1.4698944091796875, -275,-126) ">
+<use xlink:href="#Barra_nav_0_Layer0_1_FILL"/>
+</g>
+</g>
+</svg>
